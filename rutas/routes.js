@@ -13,7 +13,7 @@ router.get('/ruta2', (req, res) => {
 });
 
 // Ruta 3
-router.get('/user/:id', (req, res) => {
+router.get('/usuario/:id', (req, res) => {
   res.send('El usuario es: ' + req.params.id)
 })
 
