@@ -4,12 +4,12 @@ const router = express.Router();
 
 // Ruta principal
 router.get('/', (req, res) => {
-  res.send('¡Hola, esta es la ruta principal!');
+  res.send('Hola Mundo, Bienvenidos.');
 });
 
 // Ruta 2
 router.get('/ruta2', (req, res) => {
-  res.send('¡Hola, esta es la ruta secundaria!');
+  res.send('Bienvenido a la ruta número 2.');
 });
 
 // Ruta 3
